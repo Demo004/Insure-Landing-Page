@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insure landing page</title>
+
+    <!-- #### fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- #### icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- header -->
+      <section class="header contain">
+        <!-- logo -->
+        <img src="/logo.svg" alt="INSURE" class="header__logo" />
+
+        <!-- input -->
+        <input type="checkbox" id="check" />
+
+        <!-- menu-items -->
+        <nav>
+          <ul class="header__menu">
+            <li class="header__links"><a href="#">How We Work</a></li>
+            <li class="header__links"><a href="#">Blog</a></li>
+            <li class="header__links"><a href="#">Account</a></li>
+            <li class="header__btn">View Plans</li>
+
+            <!-- label -->
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </ul>
+          <!-- label -->
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </nav>
+      </section>
+
+      <!-- blog -->
+      <section class="blog contained">
+        <img src="/home.jpg" alt="image-intro-mobile" class="blog__img" />
+        <div class="blog__wrapper">
+          <img
+            src="/bg-pattern-intro-left-mobile.svg"
+            alt="bg-pattern-intro-left-mobile"
+            class="blog__design"
+          />
+          <div class="blog__line"></div>
+          <h1 class="blog__title">Humanizing Your Insurance.</h1>
+          <p class="blog__desc">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that's right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <buttton class="blog__btn">VIEW PLANS</buttton>
+        </div>
+        <img
+          src="/bg-pattern-intro-right-desktop.svg"
+          alt=""
+          class="blog__right"
+        />
+        <img
+          src="/bg-pattern-intro-left-desktop.svg"
+          alt=""
+          class="blog__left"
+        />
+      </section>
+
+      <!-- acct -->
+      <section class="acct contain gap">
+        <img
+          src="/bg-pattern-intro-right-mobile.svg"
+          alt="How"
+          class="acct__side-img"
+        />
+        <div class="acct__line"></div>
+        <h2 class="acct__title">We're Different</h2>
+        <div class="acct__gen-wrapper">
+          <!-- 1 -->
+          <div class="acct__wrapper">
+            <img
+              src="/icon-snappy-process.svg"
+              alt="Snappy"
+              class="acct__img"
+            />
+            <h4 class="acct__sub-title">Snappy Process</h4>
+            <p class="acct__desc">
+              Our application process can be completed in minutes, not hours.
+              Don't get stuck filling in tedious forms.
+            </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="acct__wrapper">
+            <img
+              src="/icon-affordable-prices.svg"
+              alt="Snappy"
+              class="acct__img"
+            />
+            <h4 class="acct__sub-title">Affordable Prices</h4>
+            <p class="acct__desc">
+              We don't want you worrying about high monthly costs. Our prices
+              maybe be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+
+          <!-- 3 -->
+          <div class="acct__wrapper">
+            <img src="/icon-people-first.svg" alt="Snappy" class="acct__img" />
+            <h4 class="acct__sub-title">People First</h4>
+            <p class="acct__desc">
+              Our plans aren't full of conditions and clauses to prevent
+              payouts. We make sure you're covered when you need it.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
