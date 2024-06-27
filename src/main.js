@@ -8,6 +8,8 @@ import "../style/style.css";
 import "../style/components/header.css";
 import "../style/components/blog.css";
 import "../style/components/acct.css";
+import "../style/components/plan.css";
+import "../style/components/footer.css";
 
 // utility
 import "../style/utility.css";

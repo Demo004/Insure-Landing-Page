@@ -1,0 +1,62 @@
+.plan {
+  margin-top: 2.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Darkviolet);
+  min-height: 30dvh;
+  overflow: clip;
+  gap: 2rem;
+}
+
+.plan__side-img {
+  position: absolute;
+  right: 0;
+  width: 18.75rem;
+}
+
+.plan__title {
+  font-size: var(--size-3xl);
+  max-width: 20ch;
+  z-index: 1;
+}
+
+.plan__btn {
+  color: var(--Verylightgray);
+  border: 2px solid var(--Verylightgray);
+  padding: 0.4rem;
+  font-size: var(--size-xl);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.plan__btn:is(:hover, :focus) {
+  background-color: var(--Verylightgray);
+  color: var(--Darkviolet);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .plan {
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 50dvh;
+  }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

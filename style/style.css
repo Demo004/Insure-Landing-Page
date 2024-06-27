@@ -7,6 +7,7 @@
   --Verydarkviolet: #2b272f;
   --Darkgrayishviolet: #837d87;
   --Verylightgray: #fafafa;
+  --white: #ffff;
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -36,7 +37,7 @@ html {
 }
 
 body {
-  background-color: var(--Verylightgray);
+  background-color: var(--white);
 }
 
 h1,

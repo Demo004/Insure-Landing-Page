@@ -35,6 +35,7 @@
   margin-top: 4.5rem;
   font-size: var(--size-5xl);
   max-width: 20ch;
+  z-index: 1;
 }
 
 .blog__desc {
